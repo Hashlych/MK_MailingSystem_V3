@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cert/ca/ca.key</file>
+        <file>cert/ca/ca.pem</file>
+        <file>cert/cl-crt.pem</file>
+        <file>cert/cl-key.pem</file>
+        <file>assoc_logo.png</file>
+    </qresource>
+    <qresource prefix="/html_models">
+        <file>ask_consent.html</file>
+        <file>cancel.html</file>
+        <file>contacts_groups.html</file>
+        <file>contacts_ie.html</file>
+        <file>gmail_api.html</file>
+        <file>index.html</file>
+        <file>not_found.html</file>
+        <file>ok.html</file>
+        <file>def_style.css</file>
+    </qresource>
+</RCC>

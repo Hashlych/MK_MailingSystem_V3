@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{%page_title%}}</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="{{%base_url%}}{{%style_filename%}}" />
+  </head>
+<body>
+
+  <div id="main_container">
+    <img id="assoc_logo" src="{{%assoc_log_url%}}" />
+	<h2>Contacts</h2>
+	<a href="{{%base_url%}}">Index</a>
+	
+	<p>
+	  <h3>Import</h3>
+	  Import contacts from a file.<br />
+	  This feature is accessible via the menu entry <em>Contacts > Import</em>.<br />
+	  <br />
+	  Supported file types: <em>CSV (.csv)</em><br /><br />
+	  
+	  <h4>CSV file format</h4>
+	  First line represents columns headers.<br /><br />
+	  <em>"First name","Last name","Email","Group"</em><br /><br />
+	  Example: <em>"Master","Chief","master.chief@halo.net","Elite"</em><br />
+	  <u>Note</u>: <em>Group</em> is optional. <br />
+	  If no group is provided or if the group doesn't exists, contact will be assigned to the default group.<br />
+	  
+	  <h3>Export</h3>
+	  Export selected contacts and groups of contacts to one of the supported format.<br />
+	  This feature is accessible via the menu entry <em>Contacts > Export</em>.<br />
+	  <br />
+	  Supported file type: <em>CSV (.csv)</em>, <em>Text (.txt)</em>, <em>HTML (.html)</em>
+	</p>
+  
+  </div>
+
+</body>
+</html>
