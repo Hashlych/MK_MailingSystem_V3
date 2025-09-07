@@ -4,8 +4,8 @@
 #include <QObject>
 #include <QHash>
 
-#define G_CL_ID     "1061498536318-m7s3k7gnu6lu7i7k2kgvfdvcbamv8gjf.apps.googleusercontent.com"
-#define G_CL_SECRET "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"
+#define G_CL_ID     ""
+#define G_CL_SECRET ""
 
 
 namespace HTTPSV {
